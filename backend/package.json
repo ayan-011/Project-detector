@@ -1,0 +1,27 @@
+{
+  "name": "github-detector-backend",
+  "version": "1.0.0",
+  "description": "Backend API for GitHub project copy detection",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "github",
+    "detection",
+    "similarity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.22.1",
+    "express-rate-limit": "^7.1.5",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
+    "yauzl": "^2.10.0"
+  }
+}
